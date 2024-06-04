@@ -1,9 +1,15 @@
-
-
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './App.css';
+import Informacion from './components/Informacion';
+Informacion
 function App() {
 
   return (
-    <h1>Prueba de React </h1>
+  <main className='container my-5'>
+      <h1>Primer proyecto de React </h1>
+   <Informacion comision="c89i"></Informacion>
+   {/* <Informacion/>*/}
+  </main>  
   )
 }
 
