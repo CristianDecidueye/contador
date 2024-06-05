@@ -1,10 +1,13 @@
+import { useState } from "react";
 
 const Contador = () => {
     //Aqui agrego la logica del componente
-    let numero = 10;
-
+   // let numero = 10;
+//Aqui creo el state
+const [numero, setNumero] = useState(10);
     const sumar = ()=>{
-      numero +1;
+     // numero = numero +1;
+     setNumero(numero + 1)
       console.log(numero);  
     }
 
